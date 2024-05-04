@@ -1,0 +1,7 @@
+@use "../../styles/variable" as v;
+.section-title{
+    text-align: center;
+    color: v.$color1;
+    margin-bottom: 50px;
+    font-size: 2.1rem;
+}
