@@ -2,10 +2,12 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import instructors from "@/helpers/data/instructors.json"
 import InstructorCard from './instructor-card'
+import "./instructors.scss"
+
 
 const Instructors = () => {
   return (
-    <Container>
+    <Container className='instructor'>
         <Row className='g-4'>
             <Col lg={6}>
             <h2>Our Most Experienced Instructors</h2>

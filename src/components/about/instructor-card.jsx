@@ -12,7 +12,7 @@ const InstructorCard = (props) => {
     <Card className='instructor-card'>
       
         <Image src={`/images/instructors/${image}`}
-        width={400} height={500} alt={displayName} />
+        width={400} height={400} alt={displayName} />
 
         <Card.Title >
             <h4>{displayName}</h4>

@@ -6,7 +6,7 @@ import React from 'react'
 const EventsPage = () => {
   return (
     <>
-    <PageHeader>Events</PageHeader>
+    <PageHeader >Events</PageHeader>
     <Spacer height={70}/>
     <Events/>
     <Spacer/>
