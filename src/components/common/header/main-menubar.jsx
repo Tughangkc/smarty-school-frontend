@@ -7,7 +7,7 @@ import ButtonCallNow from './button-call-now'
 
 const MainMenubar = () => {
   return (
-    <Navbar  expand="lg"  sticky="top" className="bg-body-tertiary" collapseOnSelect ={true} >
+    <Navbar  expand="lg"  sticky="top" className="bg-body-tertiary shadow" collapseOnSelect ={true} >
           <Container>
             <Logo/>
             <Navbar.Toggle aria-controls="main-menu" />
