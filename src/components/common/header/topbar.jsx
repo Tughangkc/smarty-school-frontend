@@ -3,6 +3,7 @@ import { config } from '@/helpers/config'
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import "./topbar.scss"
+import UserMenu from './user-menu'
 
 const Topbar = () => {
   return (
@@ -11,7 +12,7 @@ const Topbar = () => {
             <div className='slogan'>
             🚨 {config.project.slogan}
             </div>
-            <span>LOGIN</span>
+            <UserMenu/>
         </Container>
     </div>
   )
