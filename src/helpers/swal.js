@@ -1,3 +1,4 @@
+
 import Swal from "sweetalert2";
 export const swAlert = (title, icon = "info", text = "") => {
     Swal.fire({
@@ -12,7 +13,7 @@ export const swConfirm = (
     text = "",
     confirmButtonText = "Yes"
 ) => {
-    Swal.fire({
+    return Swal.fire({
         title,
         text,
         icon,
