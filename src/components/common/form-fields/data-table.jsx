@@ -16,6 +16,8 @@ export const Column = () => {
 
 const DataTable = (props) => {
     const { title, children } = props;
+
+    console.log(children)
     return (
         <div className="card">
             <div className="card-body">
