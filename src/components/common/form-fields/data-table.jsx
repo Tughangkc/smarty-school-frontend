@@ -43,3 +43,4 @@ const DataTable = (props) => {
     );
 };
 export default DataTable;
+// salak tarik. 
