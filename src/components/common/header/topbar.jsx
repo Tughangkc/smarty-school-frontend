@@ -1,4 +1,3 @@
-"use client"
 import { config } from '@/helpers/config'
 import React from 'react'
 import { Container } from 'react-bootstrap'
